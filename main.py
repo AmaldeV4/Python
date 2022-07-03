@@ -1,16 +1,20 @@
-# This is a sample Python script.
+from datetime import datetime
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+now = datetime.now()
+dt = now.strftime('%d/%m/%y %H:%M:%S')
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def logger():
+    f = open("file.txt", "a")
+    f.write("\n" + user + " logged at " + dt)
+    f.close()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+while True:
+    user = input("Enter Username: ")
+    if type(user) == str:
+        print("Hello " + user + "! You have been logged in")
+        logger()
+        break
+    elif type(user) == int or float:
+        print("Only letters are allowed!")
