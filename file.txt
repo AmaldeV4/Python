@@ -1,11 +1,12 @@
 ──────▄▀▄─────▄▀▄
 ─────▄█░░▀▀▀▀▀░░█▄
-─▄▄──█░░░░░░░░░░░█──▄▄			            LOGGER V1
+─▄▄──█░░░░░░░░░░░█──▄▄			            LOGGER V2 [GUI Added]
 █▄▄█─█░░▀░░┬░░▀░░█─█▄▄█
 _________________
 
-amaldev logged at 03/07/22 15:37:44
-0 logged at 03/07/22 17:39:08
-dev logged at 03/07/22 17:44:23
-dev logged at 03/07/22 17:44:42
-dev logged at 03/07/22 17:45:21
+Amaldev logged at 17/07/22 16:03:50
+God logged at 17/07/22 16:06:21
+amal logged at 17/07/22 16:08:51
+lol logged at 17/07/22 16:09:21
+Pope logged at 17/07/22 16:15:53
+Someone logged at 17/07/22 16:32:17
